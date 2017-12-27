@@ -14,8 +14,10 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
       
       self.title = "Login"
+      
+      print("New Comment")
 
-        // Do any additional setup after loading the view.
+      
     }
 
     override func didReceiveMemoryWarning() {
