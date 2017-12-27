@@ -12,6 +12,7 @@
 		CAD9E4951FF3FC2900F1012E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD9E4931FF3FC2900F1012E /* Main.storyboard */; };
 		CAD9E4971FF3FC2900F1012E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD9E4961FF3FC2900F1012E /* Assets.xcassets */; };
 		CAD9E49A1FF3FC2900F1012E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD9E4981FF3FC2900F1012E /* LaunchScreen.storyboard */; };
+		CAD9E4A21FF3FF0000F1012E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9E4A11FF3FF0000F1012E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CAD9E4961FF3FC2900F1012E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD9E4991FF3FC2900F1012E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAD9E49B1FF3FC2900F1012E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD9E4A11FF3FF0000F1012E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CAD9E48F1FF3FC2900F1012E /* AppDelegate.swift */,
 				CAD9E4911FF3FC2900F1012E /* ViewController.swift */,
+				CAD9E4A11FF3FF0000F1012E /* LoginViewController.swift */,
 				CAD9E4931FF3FC2900F1012E /* Main.storyboard */,
 				CAD9E4961FF3FC2900F1012E /* Assets.xcassets */,
 				CAD9E4981FF3FC2900F1012E /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD9E4A21FF3FF0000F1012E /* LoginViewController.swift in Sources */,
 				CAD9E4921FF3FC2900F1012E /* ViewController.swift in Sources */,
 				CAD9E4901FF3FC2900F1012E /* AppDelegate.swift in Sources */,
 			);
